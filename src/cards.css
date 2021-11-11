@@ -65,6 +65,7 @@ body{
 @media (max-width: 375px){
   .cardGroup{
     min-width: 320px;
+    flex-direction: column
   }
 }
 
