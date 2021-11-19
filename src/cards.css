@@ -62,12 +62,18 @@ body{
   min-width: 710px;
 }
 
-@media (max-width: 375px){
+@media (max-width: 725px){
   .cardGroup{
     min-width: 320px;
+  }
+} 
+
+@media (max-width: 325px){
+  .cardGroup{
+    min-width: 100px;
     flex-direction: column
   }
-}
+} 
 
 .cardGroup__card {
   flex-shrink: 1;
